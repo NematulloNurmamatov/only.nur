@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FBF8EC;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+main .top {
+  display: flex;
+  margin-top: 100px;
+}
+main .top .r {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+main .section__1 h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 150%;
+  color: #414141;
+  margin-top: 30px;
+}
+main .section__1 .cardlar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+main .section__1 .cardlar .card {
+  background-color: white;
+  padding: 32px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+main .section__1 .cardlar .card h4 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #414141;
+  margin-bottom: 16px;
+  transition: 0.3s;
+}
+main .section__1 .cardlar .card p {
+  margin-bottom: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+  transition: 0.3s;
+}
+main .section__1 .cardlar .card .t-dan {
+  margin-top: 16px;
+}
+main .section__1 .cardlar .card .fleks {
+  display: flex;
+  align-items: center;
+}
+main .section__1 .cardlar .card .fleks .p p {
+  margin-left: 10px;
+  transition: 0.3s;
+}
+main .section__1 .cardlar .card .fleks .p p:hover {
+  cursor: pointer;
+  color: blue;
+}
+main .section__1 .cardlar .card:hover {
+  background-color: #f9f2d6;
+}/*# sourceMappingURL=vakansi.css.map */

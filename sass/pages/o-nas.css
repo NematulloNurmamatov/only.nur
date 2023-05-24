@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FBF8EC;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+main .top {
+  display: flex;
+  margin-top: 100px;
+}
+main .top .r {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+main .section__1 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  background-image: url(../../img/0-nas-all.png);
+  width: 100%;
+  height: 100%;
+}
+main .section__1 h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section__1 p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #FF6633;
+  margin-top: 16px;
+}
+main .section__1 .rasm {
+  background-image: url(../../img/0-nas-green.png);
+  padding: 50px;
+  background-size: cover;
+}
+main .section__2 {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+main .section__2 .o__nas__bir {
+  display: flex;
+  width: 100%;
+}
+main .section__2 .o__nas__bir p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #414141;
+  margin-bottom: 16px;
+}
+main .section__2 .o__nas__bir h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section__2 .o__nas__bir .check {
+  margin-right: 10px;
+}
+main .section__3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 125px;
+}
+main .section__3 .left {
+  width: 20%;
+}
+main .section__3 .pi {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+main .section__3 .pi .gr {
+  width: 100%;
+}
+main .section__3 .pi .gr p {
+  background-color: #E5FFDE;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #70C05B;
+  padding: 30px 40px;
+  border-radius: 4px;
+  word-spacing: 8px;
+  letter-spacing: 2px;
+}/*# sourceMappingURL=o-nas.css.map */
