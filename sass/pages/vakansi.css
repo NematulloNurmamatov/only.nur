@@ -22,6 +22,14 @@ main .top .r {
   margin-left: 24px;
   margin-right: 24px;
 }
+main .top a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+main .top a:hover {
+  color: red;
+}
 main .section__1 h1 {
   font-family: "Rubik";
   font-style: normal;

@@ -24,6 +24,14 @@ main {
             margin-left: 24px;
             margin-right: 24px;
         }
+        a {
+            text-decoration: none;
+            color: black;
+            transition: .3s;
+            &:hover {
+                color: red;
+            }
+        }
     }
 
     .section__1 {
