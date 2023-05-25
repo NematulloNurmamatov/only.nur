@@ -662,6 +662,7 @@ main {
 
             a {
               width: 100%;
+              text-decoration: none;
 
               button {
                 all: unset;
@@ -672,6 +673,7 @@ main {
                 border-radius: 10px;
                 text-align: center;
                 transition: .3s;
+
               }
             }
           }

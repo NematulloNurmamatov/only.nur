@@ -428,6 +428,7 @@ main .section2 .cardlar .card__1 .bottom .button {
 }
 main .section2 .cardlar .card__1 .bottom .button a {
   width: 100%;
+  text-decoration: none;
 }
 main .section2 .cardlar .card__1 .bottom .button a button {
   all: unset;
