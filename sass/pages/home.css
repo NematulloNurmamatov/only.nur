@@ -657,6 +657,7 @@ footer .futer .f-1 .left {
 }
 footer .futer .f-1 .left a {
   font-family: "Rubik";
+  text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
