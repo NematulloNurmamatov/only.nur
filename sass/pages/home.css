@@ -1005,6 +1005,11 @@ footer .futer .f-3 .f-33 .raqam:hover {
     margin-top: 20px;
   }
 }
+@media (max-width: 800px) {
+  main .section1 .fleks {
+    flex-direction: column;
+  }
+}
 @media (max-width: 670px) {
   main .section__5 .uch__card {
     grid-template-columns: 1fr;
@@ -1035,5 +1040,11 @@ footer .futer .f-3 .f-33 .raqam:hover {
     grid-template-columns: 1fr;
     width: 90%;
     margin: auto;
+  }
+}
+@media (max-width: 450px) {
+  main .section1 .fleks h2 {
+    font-size: 30px;
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=home.css.map */
