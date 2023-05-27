@@ -265,4 +265,66 @@ main .section2 .cardlar .card__1:hover .button a button {
   border: 1px solid #FF6633;
   background-color: #FF6633;
   color: white;
+}
+
+@media (max-width: 1000px) {
+  main .section2 .cardlar {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 878px) {
+  main .section__2 {
+    flex-direction: column;
+  }
+  main .section__2 .right {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 850px) {
+  main .section2 .cardlar {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 878px) {
+  main .section__2 {
+    flex-direction: column;
+  }
+  main .section__2 .le {
+    flex-direction: column-reverse;
+  }
+  main .section__2 .le .chap {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .section__2 .le .img {
+    margin-left: 0px;
+  }
+  main .section__1 .fleks {
+    flex-direction: column;
+  }
+}
+@media (max-width: 700px) {
+  .top {
+    flex-direction: column;
+  }
+  .top div {
+    margin-bottom: 10px;
+  }
+  .top .r {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  main .section2 .cardlar {
+    grid-template-columns: 1fr;
+    width: 70%;
+    margin: auto;
+  }
+}
+@media (max-width: 490px) {
+  main .section2 .cardlar {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: auto;
+  }
 }/*# sourceMappingURL=tovar.css.map */
