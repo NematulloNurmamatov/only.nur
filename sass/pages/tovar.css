@@ -29,4 +29,240 @@ main .section__1 .fleks .fleks2 a {
 }
 main .section__2 {
   display: flex;
+}
+main .section__2 .le {
+  display: flex;
+  width: 100%;
+}
+main .section__2 .chap img {
+  width: 100%;
+}
+main .section__2 .img {
+  margin-left: 20px;
+}
+main .section__2 .img img {
+  width: 100%;
+}
+main .section__2 .button {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main .section__2 .button img {
+  cursor: pointer;
+}
+main .section__2 .right {
+  width: 100%;
+  margin-left: 30px;
+}
+main .section__2 .right .tepa {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+main .section__2 .right .fleks3 .bir {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #F3F2F1;
+  border-radius: 4px;
+  padding: 3px;
+}
+main .section__2 .right .fleks3 .bir div {
+  width: 100%;
+}
+main .section__2 .right .fleks3 .bir .p1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section__2 .right .fleks3 .bir .p2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section__2 .right .fleks3 .ikki {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+main .section__2 .right .fleks3 .ikki div {
+  width: 100%;
+}
+main .section__2 .right .fleks3 .ikki .p1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section__2 .right .fleks3 .ikki .p2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section2 {
+  margin-top: 76px;
+  margin-bottom: 40px;
+}
+main .section2 .aktsi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .section2 .aktsi h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section2 .aktsi .aktsi2 {
+  display: flex;
+}
+main .section2 .aktsi .aktsi2 p {
+  cursor: pointer;
+  margin-right: 20px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #606060;
+}
+main .section2 .aktsi .aktsi2 img {
+  cursor: pointer;
+}
+main .section2 .cardlar {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  justify-content: space-between;
+}
+main .section2 .cardlar .card__1 {
+  width: 100%;
+  background-color: white;
+  border-radius: 4px;
+}
+main .section2 .cardlar .card__1 .rasm {
+  position: relative;
+}
+main .section2 .cardlar .card__1 .rasm .taom {
+  width: 100%;
+}
+main .section2 .cardlar .card__1 .rasm .like {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+main .section2 .cardlar .card__1 .rasm .ellik {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+main .section2 .cardlar .card__1 .bottom {
+  padding: 6px;
+}
+main .section2 .cardlar .card__1 .bottom .novinki {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+main .section2 .cardlar .card__1 .bottom .novinki h4 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #414141;
+  margin-bottom: 10px;
+}
+main .section2 .cardlar .card__1 .bottom .novinki .kombayn {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section2 .cardlar .card__1 .bottom .pi {
+  display: flex;
+  justify-content: space-between;
+}
+main .section2 .cardlar .card__1 .bottom .pi .raqam {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section2 .cardlar .card__1 .bottom .pi .c {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #BFBFBF;
+}
+main .section2 .cardlar .card__1 .bottom .pi .raqam__2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #606060;
+}
+main .section2 .cardlar .card__1 .bottom g {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section2 .cardlar .card__1 .bottom .star {
+  display: flex;
+  margin-bottom: 10px;
+}
+main .section2 .cardlar .card__1 .bottom .star .star__l {
+  margin-left: 5px;
+}
+main .section2 .cardlar .card__1 .bottom .button {
+  width: 100%;
+}
+main .section2 .cardlar .card__1 .bottom .button a {
+  width: 100%;
+  text-decoration: none;
+}
+main .section2 .cardlar .card__1 .bottom .button a button {
+  all: unset;
+  width: 100%;
+  border: 1px solid #70C05B;
+  color: #70C05B;
+  padding: 8px 0px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+main .section2 .cardlar .card__1:hover .button a button {
+  border: 1px solid #FF6633;
+  background-color: #FF6633;
+  color: white;
 }/*# sourceMappingURL=tovar.css.map */
