@@ -649,6 +649,16 @@ footer {
     .nav-links .desktop-item {
         display: none;
     }
+    .nav-links {
+        .hov {
+            .desktop-item {
+                background-color: #70C05B;
+            }
+        }
+    }
+    .fa-bars:before {
+        background: #70C05B;
+    }
 
     .nav-links .mobile-item {
         display: block;
@@ -701,6 +711,8 @@ footer {
             }
         }
     }
+
+    
 
     .mega-box .content .row {
         width: 100%;

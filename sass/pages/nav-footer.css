@@ -561,6 +561,12 @@ footer .futer .f-3 .f-33 .raqam:hover {
   .nav-links .desktop-item {
     display: none;
   }
+  .nav-links .hov .desktop-item {
+    background-color: #70C05B;
+  }
+  .fa-bars:before {
+    background: #70C05B;
+  }
   .nav-links .mobile-item {
     display: block;
     color: #f2f2f2;
