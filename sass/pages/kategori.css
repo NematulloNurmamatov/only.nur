@@ -1,0 +1,217 @@
+main .h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 150%;
+  color: #414141;
+  margin-top: 16px;
+  margin-bottom: 60px;
+}
+main .katalog .car1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+main .katalog .car2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+main .katalog .car3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+main .katalog .car4 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+main .katalog .cc {
+  background-image: url(../../img/katalog-1.png);
+  width: 100%;
+  color: white;
+  padding-top: 163px;
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-1.png);
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-size: cover;
+  transition: 0.3s;
+}
+main .katalog .car .card11 {
+  overflow: hidden;
+}
+main .katalog .car .card11 .card1 {
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-1.png);
+}
+main .katalog .car .card11 .card1:hover {
+  transform: scale(1.1);
+}
+main .katalog .car .card22 {
+  overflow: hidden;
+}
+main .katalog .car .card22 .card2 {
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-2.png);
+}
+main .katalog .car .card22 .card2:hover {
+  transform: scale(1.1);
+}
+main .katalog .car .card33 {
+  overflow: hidden;
+}
+main .katalog .car .card33 .card3 {
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-3.png);
+}
+main .katalog .car .card33 .card3:hover {
+  transform: scale(1.1);
+}
+main .katalog .car .card44 {
+  overflow: hidden;
+}
+main .katalog .car .card44 .card4 {
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-4.png);
+}
+main .katalog .car .card44 .card4:hover {
+  transform: scale(1.1);
+}
+main .katalog .car .card55 {
+  overflow: hidden;
+}
+main .katalog .car .card55 .card5 {
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-5.png);
+}
+main .katalog .car .card55 .card5:hover {
+  transform: scale(1.1);
+}
+main .katalog .car .card66 {
+  overflow: hidden;
+}
+main .katalog .car .card66 .card6 {
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-6.png);
+}
+main .katalog .car .card66 .card6:hover {
+  transform: scale(1.1);
+}
+main .katalog .car .card77 {
+  overflow: hidden;
+}
+main .katalog .car .card77 .card7 {
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-7.png);
+}
+main .katalog .car .card77 .card7:hover {
+  transform: scale(1.1);
+}
+main .katalog .car .card88 {
+  overflow: hidden;
+}
+main .katalog .car .card88 .card8 {
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-8.png);
+}
+main .katalog .car .card88 .card8:hover {
+  transform: scale(1.1);
+}
+main .katalog .car .card99 {
+  overflow: hidden;
+}
+main .katalog .car .card99 .card9 {
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-9.png);
+}
+main .katalog .car .card99 .card9:hover {
+  transform: scale(1.1);
+}
+main .katalog .car .card100 {
+  overflow: hidden;
+}
+main .katalog .car .card100 .card10 {
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-10.png);
+}
+main .katalog .car .card100 .card10:hover {
+  transform: scale(1.1);
+}
+main .katalog .car .card110 {
+  overflow: hidden;
+}
+main .katalog .car .card110 .card11 {
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-11.png);
+}
+main .katalog .car .card110 .card11:hover {
+  transform: scale(1.1);
+}
+main .katalog .car .card120 {
+  overflow: hidden;
+}
+main .katalog .car .card120 .card12 {
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-12.png);
+}
+main .katalog .car .card120 .card12:hover {
+  transform: scale(1.1);
+}
+main .katalog .car .card130 {
+  overflow: hidden;
+}
+main .katalog .car .card130 .card13 {
+  background-image: linear-gradient(to top, #6fc05b, rgba(111, 192, 91, 0)), url(../../img/katalog-13.png);
+}
+main .katalog .car .card130 .card13:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-image: url(../../img/footer.png);
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+footer .futer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .futer .f-1 {
+  display: flex;
+  align-items: center;
+}
+footer .futer .f-1 .left {
+  margin-left: 30px;
+  margin-bottom: -10px;
+}
+footer .futer .f-1 .left a {
+  font-family: "Rubik";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+}
+footer .futer .f-1 .left a:hover {
+  cursor: pointer;
+  color: #70C05B;
+}
+footer .futer .f-2 {
+  display: flex;
+  align-items: center;
+}
+footer .futer .f-2 .left {
+  margin-left: 20px;
+}
+footer .futer .f-2 img:hover {
+  cursor: pointer;
+}
+footer .futer .f-3 .f-33 {
+  display: flex;
+}
+footer .futer .f-3 .f-33 .dizayn {
+  margin-right: 10px;
+}
+footer .futer .f-3 .f-33 .raqam {
+  margin-left: 10px;
+  cursor: pointer;
+}
+footer .futer .f-3 .f-33 .raqam:hover {
+  color: #70C05B;
+}/*# sourceMappingURL=kategori.css.map */

@@ -1,0 +1,289 @@
+main {
+    .h1 {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 150%;
+        color: #414141;
+        margin-top: 16px;
+        margin-bottom: 60px;
+    }
+
+    .katalog {
+        .car1 {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .car2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+
+        }
+
+        .car3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+            gap: 30px;
+            margin-bottom: 30px;
+
+
+        }
+
+        .car4 {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+
+
+        }
+
+        .cc {
+            background-image: url(../../img/katalog-1.png);
+            // height: 200px;
+            width: 100%;
+            color: white;
+            padding-top: 163px;
+            background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-1.png);
+            padding-left: 10px;
+            padding-bottom: 10px;
+            background-size: cover;
+            transition: .3s;
+
+        }
+
+        .car {
+            .card11 {
+                overflow: hidden;
+
+                .card1 {
+                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-1.png);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .card22 {
+                overflow: hidden;
+
+                .card2 {
+                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-2.png);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .card33 {
+                overflow: hidden;
+
+                .card3 {
+                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-3.png);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .card44 {
+                overflow: hidden;
+
+                .card4 {
+                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-4.png);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .card55 {
+                overflow: hidden;
+
+                .card5 {
+                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-5.png);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .card66 {
+                overflow: hidden;
+
+                .card6 {
+                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-6.png);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .card77 {
+                overflow: hidden;
+
+                .card7 {
+                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-7.png);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .card88 {
+                overflow: hidden;
+
+                .card8 {
+                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-8.png);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .card99 {
+                overflow: hidden;
+
+                .card9 {
+                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-9.png);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .card100 {
+                overflow: hidden;
+
+                .card10 {
+                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-10.png);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .card110 {
+                overflow: hidden;
+
+                .card11 {
+                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-11.png);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .card120 {
+                overflow: hidden;
+
+                .card12 {
+                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-12.png);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .card130 {
+                overflow: hidden;
+
+                .card13 {
+                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-13.png);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+footer {
+    background-image: url(../../img/footer.png);
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+    .futer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .f-1 {
+            display: flex;
+            align-items: center;
+
+            .left {
+                margin-left: 30px;
+                margin-bottom: -10px;
+
+                a {
+                    font-family: 'Rubik';
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #414141;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: #70C05B;
+                    }
+                }
+            }
+        }
+
+        .f-2 {
+            display: flex;
+            align-items: center;
+
+            .left {
+                margin-left: 20px;
+            }
+
+            img:hover {
+                cursor: pointer;
+            }
+        }
+
+        .f-3 {
+            .f-33 {
+                display: flex;
+
+                .dizayn {
+                    margin-right: 10px;
+                }
+
+                .raqam {
+                    margin-left: 10px;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #70C05B;
+                    }
+                }
+            }
+        }
+    }
+}
