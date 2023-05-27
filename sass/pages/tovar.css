@@ -1,0 +1,32 @@
+.top .m a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #8F8F8F;
+}
+
+main .section__1 h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #414141;
+  margin: 25px 0px;
+}
+main .section__1 .fleks {
+  display: flex;
+  align-items: center;
+}
+main .section__1 .fleks .fleks2 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+main .section__1 .fleks .fleks2 a {
+  color: #414141;
+}
+main .section__2 {
+  display: flex;
+}/*# sourceMappingURL=tovar.css.map */

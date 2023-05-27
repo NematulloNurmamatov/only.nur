@@ -1,0 +1,43 @@
+.top {
+    .m {
+        a {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #8F8F8F;
+        }
+    }
+}
+
+main {
+    .section__1 {
+        h1 {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 150%;
+            color: #414141;
+            margin: 25px 0px;
+        }
+
+        .fleks {
+            display: flex;
+            align-items: center;
+
+            .fleks2 {
+                margin-left: 20px;
+                margin-top: 10px;
+                a {
+                    color: #414141;;
+                }
+            }
+        }
+    }
+
+    .section__2 {
+        display: flex;
+    }
+}
