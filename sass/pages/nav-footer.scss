@@ -453,7 +453,6 @@ header {
     }
 }
 
-
 .navigation a::before {
     content: "" attr(data-menu) "";
     position: absolute;
