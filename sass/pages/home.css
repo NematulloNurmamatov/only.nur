@@ -243,47 +243,49 @@ main .section__3 .card2 .card__22 p {
 main .section__3 .card2 .card__22 img {
   width: 100%;
 }
-main .section__4 .sec__4 .buttonlar {
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 50px;
+main .section__4 {
+  margin-bottom: 120px;
 }
-main .section__4 .sec__4 .buttonlar .left {
-  margin-left: 20px;
+main .section__4 h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #414141;
+  margin-bottom: 24px;
 }
-main .section__4 .sec__4 .buttonlar button {
+main .section__4 li {
+  list-style: none;
+}
+main .section__4 a {
+  text-decoration: none;
+}
+main .section__4 .ap-tab button {
   all: unset;
-  border: 1px solid #F3F2F1;
-  padding: 5px 10px;
   background-color: #F3F2F1;
-  border-radius: 4px;
+  color: #606060;
+  padding: 4px 8px;
   font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
-  color: #606060;
+  align-items: center;
   text-align: center;
-  transition: 0.3s;
+  transition: 0.4s;
+  border-radius: 4px;
 }
-main .section__4 .sec__4 .buttonlar button:hover {
+main .section__4 .ap-tab button:hover {
   background-color: #70C05B;
   color: white;
 }
-main .section__4 .sec__4 .map {
-  margin-bottom: 50px;
-}
-main .section__4 .abo .maiin .jizzax {
-  flex-direction: column;
-}
-main .section__4 .abo .maiin .jizzax .zomin {
-  display: flex;
-}
-main .section__4 .abo .maiin .jizzax .zomin .flekss {
-  display: flex;
-}
-main .section__4 .abo .maiin .jizzax iframe {
-  width: 420%;
+main .section__4 .ap-tab .ap-tab-list {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 24px;
+  gap: 20px;
 }
 main .section__5 .aktsi {
   display: flex;
@@ -333,6 +335,7 @@ main .section__5 .uch__card .bir-card {
 }
 main .section__5 .uch__card .bir-card .top {
   overflow: hidden;
+  margin-top: 0px;
 }
 main .section__5 .uch__card .bir-card .bottom {
   padding: 6px;
@@ -348,6 +351,7 @@ main .section__5 .uch__card .bir-card .a {
   font-size: 12px;
   line-height: 150%;
   color: #8F8F8F;
+  margin-bottom: 10px;
 }
 main .section__5 .uch__card .bir-card h4 {
   font-family: "Rubik";
@@ -356,6 +360,7 @@ main .section__5 .uch__card .bir-card h4 {
   font-size: 18px;
   line-height: 150%;
   color: #414141;
+  margin-bottom: 10px;
 }
 main .section__5 .uch__card .bir-card .b {
   font-family: "Rubik";
@@ -364,6 +369,7 @@ main .section__5 .uch__card .bir-card .b {
   font-size: 16px;
   line-height: 150%;
   color: #414141;
+  margin-bottom: 15px;
 }
 main .section__5 .uch__card .bir-card button {
   all: unset;
@@ -516,6 +522,11 @@ footer .futer .f-3 .f-33 .raqam:hover {
     width: 150%;
   }
 }
+@media (max-width: 500px) {
+  main .section__4 .ap-tab .ap-tab-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 @media (max-width: 495px) {
   main .section__4 .abo .maiin .jizzax iframe {
     width: 140%;
@@ -546,8 +557,19 @@ footer .futer .f-3 .f-33 .raqam:hover {
     margin-top: 20px;
   }
 }
+@media (max-width: 400px) {
+  main .section__4 .ap-tab .ap-tab-list {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media (max-width: 397px) {
   main .section__4 .abo .maiin .jizzax iframe {
     width: 90%;
+  }
+}
+@media (max-width: 300px) {
+  main .section__4 .ap-tab .ap-tab-list {
+    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=home.css.map */

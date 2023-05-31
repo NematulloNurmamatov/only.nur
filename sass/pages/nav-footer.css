@@ -297,7 +297,6 @@ nav input {
 header {
   position: relative;
   position: fixed;
-  width: 100%;
   background-color: #ffffff;
   padding: 20px;
   z-index: 2222;
