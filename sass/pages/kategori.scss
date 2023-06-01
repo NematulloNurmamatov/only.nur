@@ -56,6 +56,10 @@ main {
             background-size: cover;
             transition: .3s;
 
+            &:hover {
+                background-image: linear-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-1.png);
+            }
+
         }
 
         .car {
@@ -64,9 +68,12 @@ main {
 
                 .card1 {
                     background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-1.png);
+                    transition: .4s;
 
                     &:hover {
                         transform: scale(1.1);
+                        background-image: linear-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-1.png);
+
                     }
                 }
             }
@@ -76,9 +83,13 @@ main {
 
                 .card2 {
                     background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-2.png);
+                    transition: .4s;
+
 
                     &:hover {
                         transform: scale(1.1);
+                        background-image: linear-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-2.png);
+
                     }
                 }
             }
@@ -87,10 +98,14 @@ main {
                 overflow: hidden;
 
                 .card3 {
-                    background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-3.png);
+                    background-image: li near-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-3.png);
+                    transition: .4s;
+
 
                     &:hover {
                         transform: scale(1.1);
+                        background-image: li near-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-3.png);
+
                     }
                 }
             }
@@ -100,9 +115,13 @@ main {
 
                 .card4 {
                     background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-4.png);
+                    transition: .4s;
+
 
                     &:hover {
                         transform: scale(1.1);
+                        background-image: linear-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-4.png);
+
                     }
                 }
             }
@@ -112,9 +131,13 @@ main {
 
                 .card5 {
                     background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-5.png);
+                    transition: .4s;
+
 
                     &:hover {
                         transform: scale(1.1);
+                        background-image: linear-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-5.png);
+
                     }
                 }
             }
@@ -124,9 +147,13 @@ main {
 
                 .card6 {
                     background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-6.png);
+                    transition: .4s;
+
 
                     &:hover {
                         transform: scale(1.1);
+                        background-image: linear-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-6.png);
+
                     }
                 }
             }
@@ -136,9 +163,13 @@ main {
 
                 .card7 {
                     background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-7.png);
+                    transition: .4s;
+
 
                     &:hover {
                         transform: scale(1.1);
+                        background-image: linear-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-7.png);
+
                     }
                 }
             }
@@ -148,9 +179,13 @@ main {
 
                 .card8 {
                     background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-8.png);
+                    transition: .4s;
+
 
                     &:hover {
                         transform: scale(1.1);
+                        background-image: linear-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-8.png);
+
                     }
                 }
             }
@@ -160,9 +195,13 @@ main {
 
                 .card9 {
                     background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-9.png);
+                    transition: .4s;
+
 
                     &:hover {
                         transform: scale(1.1);
+                        background-image: linear-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-9.png);
+
                     }
                 }
             }
@@ -172,9 +211,13 @@ main {
 
                 .card10 {
                     background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-10.png);
+                    transition: .4s;
+
 
                     &:hover {
                         transform: scale(1.1);
+                        background-image: linear-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-10.png);
+
                     }
                 }
             }
@@ -184,9 +227,13 @@ main {
 
                 .card11 {
                     background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-11.png);
+                    transition: .4s;
+
 
                     &:hover {
                         transform: scale(1.1);
+                        background-image: linear-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-11.png);
+
                     }
                 }
             }
@@ -196,9 +243,13 @@ main {
 
                 .card12 {
                     background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-12.png);
+                    transition: .4s;
+
 
                     &:hover {
                         transform: scale(1.1);
+                        background-image: linear-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-12.png);
+
                     }
                 }
             }
@@ -208,9 +259,13 @@ main {
 
                 .card13 {
                     background-image: linear-gradient(to top, #6fc05b, #6fc05b00), url(../../img/katalog-13.png);
+                    transition: .4s;
+
 
                     &:hover {
                         transform: scale(1.1);
+                        background-image: linear-gradient(to top, #FF6633, #6fc05b00), url(../../img/katalog-13.png);
+
                     }
                 }
             }
@@ -399,6 +454,7 @@ footer {
 
             .car4 {
                 grid-template-columns: 1fr 1fr;
+
                 .card130 {
                     display: none;
                 }
@@ -436,6 +492,7 @@ footer {
 
             .car4 {
                 grid-template-columns: 1fr 1fr;
+
                 .card130 {
                     display: none;
                 }
@@ -473,6 +530,7 @@ footer {
 
             .car4 {
                 grid-template-columns: 2fr;
+
                 .card120 {
                     display: none;
                 }
