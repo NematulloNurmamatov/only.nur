@@ -102,9 +102,36 @@
           <p>Корзина</p>
         </div>
       </div>
+
+      <div class="overlay" id="modal01" onclick="Modal.close(event)" data-backdrop data-modal-close>
+        <section class="modal">
+          <header class="modal--header">
+            <div class="button" data-type="icon" onclick="Modal.close(event)" data-modal-close><svg class="icon icon-clear" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></div>
+          </header>
+          <div class="modal--content">
+            <h2>Вход</h2>
+            <div class="input">
+              <label for="">Телефон</label>
+              <input type="text" placeholder="+7 912">
+            </div>
+            <div class="vxod">
+              <button>Вход</button>
+            </div>
+            <div class="pas">
+              <div class="bu">
+                <button>Регистрация</button>
+              </div>
+              <div>
+                <a href="#">Забыли пароль?</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
       <div class="sec">
-        <div>
-          <img src="./img/avatar.png" alt="">
+        <div class="aaa">
+          <button onclick="Modal.open('#modal01')"><img src="./img/avatar.png" alt=""></button>
         </div>
         <select name="" id="">
           <option value="Алексей">Алексей</option>
@@ -687,6 +714,7 @@
           </div>
         </div>
       </div>
+      
 
       <div class="uch__card">
         <div class="bir-card">
@@ -726,8 +754,6 @@
           </div>
         </div>
       </div>
-    </div>
-
   </main>
 
   <footer>
@@ -794,6 +820,8 @@
 
   <!-- <script src="./sass/js/main.js"></script> -->
   <script src="./sass/js/ap-tab.js"></script>
+  <script src="./sass/js/modal.js"></script>
+
 
 
 
