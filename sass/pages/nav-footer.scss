@@ -48,7 +48,7 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 20px !important;
 
     .urta {
         display: flex;
@@ -83,8 +83,6 @@ body {
     margin-top: 10px;
     margin-left: 20px;
 
-    .ava {
-    }
     
     img {
         margin-right: 20px;
@@ -560,9 +558,9 @@ footer {
 
 @media screen and (max-width: 1130px) {
 
-    .wrapper .btn {
-        // display: block;
-    }
+    // .wrapper .btn {
+    //     // display: block;
+    // }
 
     .center {
         // display: none;
