@@ -347,6 +347,7 @@ body {
   display: flex;
   margin-top: 10px;
   margin-left: 20px;
+  background-color: white;
 }
 .sec img {
   margin-right: 20px;
@@ -355,6 +356,7 @@ body {
 .sec select {
   border: none;
   height: 50px;
+  background-color: white;
 }
 .sec .aaa {
   cursor: pointer;
