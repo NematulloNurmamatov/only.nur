@@ -356,6 +356,9 @@ body {
   border: none;
   height: 50px;
 }
+.sec .aaa {
+  cursor: pointer;
+}
 .sec .aaa button {
   all: unset;
 }
