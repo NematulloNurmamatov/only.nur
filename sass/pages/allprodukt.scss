@@ -1,0 +1,53 @@
+@use "../abstracts/mixins" as mx;
+
+@import "../global";
+
+* {
+    list-style: none;
+    text-decoration: none
+}
+
+main {
+    .joyi {
+        @include mx.joy;
+    }
+
+    h2 {
+        padding: 20px 0px 50px;
+        font-size: 36px;
+    }
+
+    @include mx.card;
+    @include mx.card2;
+
+    .paginition {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 35px 0px;
+
+        .disabled {
+            color: gray;
+        }
+
+        .page-item {
+            border: 1.5px solid rgb(71, 71, 71);
+            padding: 6px 14px;
+            border-radius: 7px;
+            cursor: pointer;
+
+            &:hover {
+                background: rgb(241, 244, 236);
+                color: black;
+            }
+        }
+
+        .active {
+            background: rgb(57, 57, 252);
+            color: white;
+        }
+    }
+
+}
+
+

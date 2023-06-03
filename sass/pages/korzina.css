@@ -1,0 +1,242 @@
+main .korzinka {
+  display: flex;
+  margin-top: 27px;
+}
+main .korzinka h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 150%;
+  color: #414141;
+  margin-right: 20px;
+}
+main .minus {
+  display: flex;
+  margin-top: 68px;
+}
+main .minus .minus2 {
+  display: flex;
+  margin-right: 50px;
+}
+main .minus .minus2 p {
+  margin-left: 10px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #606060;
+}
+main .minus .qizil {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FF6633;
+}
+main .section__1 {
+  width: 100%;
+}
+main .section__1 .sec__1 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+main .section__1 .sec__1 .fleks {
+  display: flex;
+  align-items: center;
+}
+main .section__1 .sec__1 .fleks .l1 {
+  margin-left: 20px;
+}
+main .section__1 .sec__1 .fleks .l2 {
+  display: flex;
+}
+main .section__1 .sec__1 .flekss {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+main .section__1 .sec__1 .flekss .plus {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+  background-color: #70C05B;
+  border-radius: 4px;
+}
+main .section__1 .sec__1 .flekss .plus div {
+  padding: 10px 20px;
+  color: white;
+}
+main .section__1 .sec__1 .flekss .plus .btn2:hover {
+  cursor: pointer;
+  color: red;
+}
+main .section__1 .sec__1 .flekss .plus button {
+  all: unset;
+}
+main .section__1 .sec__1 img {
+  margin-top: -8px;
+}
+main .display {
+  display: flex;
+  margin-bottom: 100px;
+}
+main .display .bir {
+  width: 100%;
+}
+main .display .ikki {
+  width: 35%;
+  margin-left: 80px;
+}
+main .display .ikki .ikki__1 {
+  display: flex;
+}
+main .display .ikki .ikki__1 p {
+  margin-left: 20px;
+}
+main .display .ikki .ikki__2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #8F8F8F;
+}
+main .display .ikki .ikki__3 {
+  width: 100%;
+  margin-top: 20px;
+}
+main .display .ikki .ikki__4 {
+  margin-top: 20px;
+}
+main .display .ikki .ikki__4 .ikki__5 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+main .display .ikki .ikki__4 .ikki__5 .ikki__6 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #8F8F8F;
+}
+main .display .ikki .ikki__4 .ikki__5 .ikki__7 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: right;
+  color: #414141;
+}
+main .display .ikki .ikki__8 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+main .display .ikki .ikki__8 .ikki__9 p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #8F8F8F;
+}
+main .display .ikki .ikki__8 .ikki__10 h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: right;
+  color: #414141;
+}
+main .display .ikki .ikki__11 {
+  margin-bottom: 10px;
+}
+main .display .ikki .ikki__12 {
+  background-color: #D80000;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-radius: 4px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+main .display .ikki .ikki__13 button {
+  color: #FF6633;
+  background-color: #FCD5BA;
+  border-radius: 4px;
+  padding: 18px 16px;
+  width: 100%;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 1155px) {
+  main .display {
+    flex-direction: column;
+  }
+  main .display .ikki {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 800px) {
+  main .display {
+    flex-direction: column;
+  }
+  main .display .bir .section__1 .sec__1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  main .display .bir .section__1 .sec__1 .fleks {
+    flex-direction: column;
+  }
+  main .display .ikki {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 700px) {
+  main .display {
+    flex-direction: column;
+  }
+  main .display .bir .section__1 .sec__1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  main .display .bir .section__1 .sec__1 .fleks, main .display .bir .section__1 .sec__1 .flekss {
+    flex-direction: column;
+  }
+  main .display .bir .section__1 .sec__1 .fleks .plus, main .display .bir .section__1 .sec__1 .flekss .plus {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  main .display .ikki {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+  }
+}/*# sourceMappingURL=korzina.css.map */

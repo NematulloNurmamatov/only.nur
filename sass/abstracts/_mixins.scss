@@ -1,86 +1,393 @@
-// SCSS Mixins
-
-// Fonts
-@mixin font-style($size, $color, $weight: 400, $style: normal, $align: left) {
-	font-size: $size;
-	color: $color;
-	font-weight: $weight;
-	font-style: $style;
-	text-align: $align;
-}
-
-
-
-/* Define the mixin */
-@mixin buttonMixin($bg-color, $text-color) {
-	display: inline-block;
-	padding: 18px 16px;
-	font-size: 16px;
-	text-align: center;
-	text-decoration: none;
-	border: none;
-	border-radius: 4px;
-	color: $text-color;
-	background-color: $bg-color;
-	cursor: pointer;
-}
-  
-  
-// GRID UCHUN MIXIN
-@mixin grid($cols, $gap) {
-	display: grid;
-	grid-template-columns: repeat($cols, 1fr);
-	grid-gap: $gap;
-  }
-  
-  // Mixin for Flexbox
-  @mixin flexbox($direction: row, $justify: flex-start, $align: stretch) {
+@mixin joy {
 	display: flex;
-	flex-direction: $direction;
-	justify-content: $justify;
-	align-items: $align;
-  }
-  
-  @mixin media($size) {
-	@media only screen and (max-width: $size) {
-	  @content;
+	gap: 20px;
+	align-items: center;
+	margin-top: 15px;
+
+	.home {
+		color: black;
+		font-size: 18px;
 	}
-  }
 
-
-//BOX-SHADOWS
-@mixin boxShadows {
-	$shadows: (
-	  "1px 2px 4px rgba(0, 0, 0, 0.1)",
-	  "2px 4px 8px rgba(0, 0, 0, 0.1)",
-	  "8px 16px 32px rgba(0, 0, 0, 0.1)",
-	  "16px 32px 64px rgba(0, 0, 0, 0.1)",
-	  "1px 2px 4px rgba(255, 102, 51, 0.2)",
-	  "2px 4px 8px rgba(255, 102, 51, 0.2)",
-	  "4px 8px 16px rgba(255, 102, 51, 0.2)",
-	  "8px 16px 32px rgba(255, 102, 51, 0.2)",
-	  "16px 32px 64px rgba(255, 102, 51, 0.2)",
-	  "1px 2px 4px rgba(112, 192, 91, 0.2)",
-	  "2px 4px 8px rgba(112, 192, 91, 0.2)",
-	  "4px 8px 16px rgba(112, 192, 91, 0.2)",
-	  "8px 16px 32px rgba(112, 192, 91, 0.2)",
-	  "16px 32px 64px rgba(112, 192, 91, 0.2)"
-	);
-  
-	@each $shadow in $shadows {
-	  $index: index($shadows, $shadow);
-	  .shadow-#{$index} {
-		box-shadow: $shadow;
-	  }
+	.page {
+		color: #8F8F8F;
 	}
-  }
-//USAGE 
-// @include boxShadows;
+}
 
-// .my-element {
-//   @extend .shadow-1;
-// }
+@mixin card {
+	.card {
+		padding: 0px 0px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		gap: 20px;
 
-// .another-element {
-//   @extend .shadow-2;
-// }
+		.box {
+			background-color: white;
+			width: 96%;
+			border-radius: 9px;
+			transition: .5s;
+
+			.fl {
+				display: flex;
+				align-items: center;
+				gap: 50px;
+				background: #FFFFFF;
+				box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+				border-radius: 4px;
+				width: 100%;
+
+				.n-f {
+					display: flex;
+					gap: 20px;
+				}
+
+				.yon {
+					display: flex;
+					gap: 10px;
+
+					.bt {
+						display: flex;
+
+						p {
+							padding: 10px;
+							background-color: green;
+							cursor: pointer;
+						}
+					}
+				}
+			}
+
+			p {
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+			}
+
+			.ras {
+				position: relative;
+
+				.s {
+					width: 100%;
+					height: 180px
+				}
+
+				.po {
+					padding: 0px 10px;
+					top: 20px;
+					position: absolute;
+					right: 0;
+					cursor: pointer;
+				}
+
+				.tx {
+					display: none;
+					position: absolute;
+					top: 120px;
+					left: 10px;
+					width: 56px;
+					padding: 10px 0;
+					color: white;
+					background: #FF6633;
+					border-radius: 4px;
+					text-align: center;
+				}
+			}
+
+			.pastki {
+				padding: 10px 10px;
+
+				.fle {
+					display: flex;
+					justify-content: space-between;
+				}
+
+				.button {
+					&.dark {
+						--background: #2F3545;
+						--shadow: 0 2px 8px -1px #{rgba(#151924, .32)};
+						--shadow-hover: 0 4px 20px -2px #{rgba(#151924, .5)};
+					}
+
+				}
+
+				.button {
+					--background: white;
+					--text: #70C05B;
+					--font-size: 18.5px;
+					--duration: .44s;
+					--move-hover: -4px;
+					--shadow: 0 2px 8px -1px #{rgba(#275efe, .32)};
+					--shadow-hover: 0 4px 20px -2px #{rgba(#275efe, .5)};
+					--font-shadow: var(--font-size);
+					padding: 10px 12px;
+					font-family: 'Roboto';
+					font-weight: 500;
+					line-height: var(--font-size);
+					border-radius: 7px;
+					width: 100%;
+					text-align: center;
+					display: block;
+					align-items: center;
+					outline: none;
+					text-decoration: none;
+					font-size: var(--font-size);
+					letter-spacing: .5px;
+					background: var(--background);
+					color: var(--text);
+					box-shadow: var(--shadow);
+					transform: translateY(var(--y)) translateZ(0);
+					transition: transform var(--duration) ease, box-shadow var(--duration) ease;
+					border: 1px solid #70C05B;
+
+					div {
+						display: flex;
+						text-align: center;
+						justify-content: center;
+						overflow: hidden;
+						text-shadow: 0 var(--font-shadow) 0 var(--text);
+
+						span {
+							display: block;
+							backface-visibility: hidden;
+							font-style: normal;
+							transition: transform var(--duration) ease;
+							transform: translateY(var(--m)) translateZ(0);
+							$i: 1;
+
+							@while $i < 12 {
+								&:nth-child(#{$i}) {
+									transition-delay: $i / 20 + s;
+								}
+
+								$i: $i + 1;
+							}
+						}
+					}
+
+					&:hover {
+						--y: var(--move-hover);
+						background: #FF6633;
+						color: white;
+						transform: .6s;
+						--shadow: var(--shadow-hover);
+						--text: white;
+						border: 1px solid #FF6633;
+
+						span {
+							color: white;
+							--m: calc(var(--font-size) * -1);
+						}
+					}
+				}
+
+			}
+		}
+
+		.box:hover {
+			box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+			transform: translate(0px, -8px);
+		}
+	}
+
+	.card2 {
+		.fl {
+			display: flex;
+			align-items: center;
+			gap: 50px;
+			background: #FFFFFF;
+			box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+			border-radius: 4px;
+			width: 70%;
+
+			.n-f {
+				display: flex;
+				gap: 20px;
+			}
+
+			.yon {
+				display: flex;
+				gap: 10px;
+
+				.bt {
+					display: flex;
+
+					p {
+						padding: 10px;
+						background-color: green;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+
+	@media (max-width: 1190px) {
+		.card {
+			padding: 0px 15px;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			gap: 20px;
+		}
+
+		.sec2 {
+			.f_aksi {
+				padding: 0px 14px;
+			}
+
+			.s_f {
+				padding: 40px 14px;
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				gap: 20px;
+
+				.oxr-no {
+					display: none;
+				}
+
+				.box {
+					width: 100%;
+				}
+			}
+		}
+
+		.joyi {
+			margin: 15px 14px;
+		}
+
+		.jo {
+			margin: 10px 14px;
+		}
+	}
+
+	@media (max-width: 890px) {
+		.card {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 20px;
+		}
+	}
+
+	@media (max-width: 595px) {
+		.card {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 20px;
+
+			.box {
+				width: 80%;
+				margin: auto;
+				border-radius: 9px;
+				transition: .5s;
+
+				.ras {
+					position: relative;
+
+					.s {
+						width: 100%;
+						height: auto;
+					}
+				}
+			}
+		}
+	}
+
+	@media (max-width: 450px) {
+		.card {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 20px;
+
+			.box {
+				width: 99%;
+				margin: auto;
+				border-radius: 9px;
+				transition: .5s;
+
+				.ras {
+					position: relative;
+
+					.s {
+						width: 100%;
+						height: auto;
+					}
+				}
+			}
+		}
+	}
+}
+
+@mixin sec {
+	padding: 50px 0px 10px;
+
+	.text {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 0px;
+
+		h3 {
+			font-size: 38px;
+			font-weight: 700;
+		}
+
+		.hammasi {
+			display: flex;
+			align-items: center;
+			gap: 15px;
+			color: #606060;
+			transition: 0.4s;
+			font-size: 16px;
+
+			&:hover {
+				color: blue;
+			}
+		}
+
+		@media(max-width: 750px) {
+			h3 {
+				font-size: 34px;
+			}
+		}
+
+		@media(max-width: 650px) {
+			h3 {
+				font-size: 30px;
+			}
+		}
+
+		@media(max-width: 550px) {
+			h3 {
+				font-size: 26px;
+			}
+
+			.hammasi {
+				font-size: 14px;
+
+				i {
+					font-size: 12px;
+				}
+			}
+		}
+
+		@media(max-width: 400px) {
+			align-items: center;
+
+			h3 {
+				font-size: 24px;
+			}
+
+			.hammasi {
+				width: 130px;
+				font-size: 13px;
+
+				i {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+
+	@include card;
+
+}
